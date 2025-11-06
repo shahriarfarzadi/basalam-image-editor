@@ -1,0 +1,21 @@
+{
+  "registries": {
+    "@acme": "https://acme.com/r/{name}.json"
+  },
+  "mcpServers": {
+    "shadcn": {
+      "command": "npx",
+      "args": [
+        "shadcn@latest",
+        "mcp"
+      ]
+    },
+    "basalam-mcp": {
+      "url": "https://mcp.basalam.com/mcp/"
+    },
+    "supabase": {
+      "url": "https://mcp.supabase.com/mcp",
+      "headers": {}
+    }
+  }
+}
